@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "server.resources.static-locations",
+  "type": "java.lang.String",
+  "description": "A description for 'server.resources.static-locations'"
+}]}
