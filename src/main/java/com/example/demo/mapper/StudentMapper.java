@@ -1,4 +1,4 @@
-package com.example.demo.dao;
+package com.example.demo.mapper;
 
 import java.util.List;
 
@@ -13,7 +13,6 @@ import org.apache.ibatis.annotations.Update;
 
 import com.example.demo.bean.Student;
 
-@Mapper
 public interface StudentMapper {
 	
 	@Select("select * from salesforce.student__c")

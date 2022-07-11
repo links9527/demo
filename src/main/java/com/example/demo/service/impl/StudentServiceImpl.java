@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.bean.Student;
-import com.example.demo.dao.StudentMapper;
+import com.example.demo.mapper.StudentMapper;
 import com.example.demo.service.StudentService;
 
 @Transactional
